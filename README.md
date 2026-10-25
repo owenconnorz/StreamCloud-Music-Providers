@@ -11,8 +11,15 @@ it does **not** stream Spotify audio, unlock Premium, or bypass DRM. Authenticat
 and API availability may limit access. Music, podcasts, audiobooks, mixes, and
 recommendations are not advertised until implemented.
 
-In a compatible StreamCloud build, open Music → Switch music provider → Manage
-providers → Install Spotify. Then choose Spotify and sign in if required.
+StreamCloud does not contact this repository on first launch. A user must add its
+link in Music → Switch music provider → Plugin repositories → Add repository URL:
+
+`https://github.com/owenconnorz/StreamCloud-Music-Providers`
+
+Only after the link is added does the app fetch this repository's catalogue. Then
+install Spotify and choose it as the music home. The app stores the links locally;
+users can add or remove them at any time. Existing user-added links refresh on
+later visits; no default source is configured.
 
 ## Repository format
 
