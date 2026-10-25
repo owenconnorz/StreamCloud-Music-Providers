@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "spotify",
+  "version": 1,
+  "name": "Spotify",
+  "adapter": "spotify-playlists-v1",
+  "description": "Browse your Spotify playlists using your existing StreamCloud sign-in.",
+  "capabilities": ["playlists"],
+  "playback": "youtube-match"
+}

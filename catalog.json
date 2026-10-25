@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "providers": [
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "version": 1,
+      "path": "providers/spotify.json",
+      "sha256": "46640f411593b5e39270b2f8c8e35950cc9456d43111855dcec6ca7588251fc6"
+    }
+  ]
+}
